@@ -1,0 +1,128 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>MTG Playtest RPG</title>
+    <link rel="stylesheet" href="MagicStyle.css">
+ </head>
+
+<body>
+    <header>
+        <nav>
+            <ul>
+                <li><a href="#introduction">Introduction</a></li>
+                <li><a href="#rules">Rules</a></li>
+                <li><a href="#card-generator">PRPG Card Generator</a></li>
+                <li><a href="#premium-generator">Premium Card Generator</a></li>
+            </ul>
+        </nav>
+    </header>
+    <main>
+        <span id="Intro_Photo">
+            <img src="DOTP.jpg" alt="Duels of the Planeswalkers">
+        </span>
+        <h1>Magic: The Gathering Playtest Roleplaying Game</h1>
+        <section id="introduction">
+            <h2>Introduction</h2>
+            <p>For over 30 years, <a href="https://magic.wizards.com/en">Magic: The Gathering</a> has had a dedicated fanbase. What seems like a simple game is rich with variations and customizations that keep players engaged for a lifetime. Many fans also enjoy digital versions of the game.</p>
+
+            <p>Currently, <a href="https://magic.wizards.com/en/mtgarena?msclkid=f33f24ebdaaa1fdb70da422d776249c5">Magic Arena</a> is the primary way to play online, but before MTG Arena, there was <a href="https://www.mtgo.com/en/mtgo">MTGO</a>, the <a href="https://en.wikipedia.org/wiki/Magic:_The_Gathering_%E2%80%93_Duels_of_the_Planeswalkers">Duels of the Planeswalkers</a> series, and a well-known <a href="https://en.wikipedia.org/wiki/Magic:_The_Gathering_%281997_video_game%29">Microprose game</a>. I have long wished for a modern version of the 1997 <span class="italic">Magic: The Gathering</span> game set in Shandalar, but since that seems unlikely, I've created a homebrew game: <span class="bold">MTG: PRPG</span>.</p>
+
+            <p><span class="italic">Magic: The Gathering, Playtest Roleplaying Game</span> is a way to use MTG playtesting websites and software like <a href="https://cockatrice.github.io/">Cockatrice</a>, <a href="http://xmage.today/">Xmage</a>, <a href="https://tappedout.net/">Tappedout</a>, and <a href="https://manastack.com/">Manastack</a> (my preferred site) to recreate the Shandalar experience, but with modern rules. Players start with one of 6 starter decks, then duel using their chosen software, earning in-game money and cards to improve their decks. After enough wins, they advance to more challenging formats with larger card pools. <!----There is also a separate EDH campaign. --></p>
+
+            <p>Below you'll find more rules & random card generators. Choose your deck and have fun!</p>
+            </section>
+            <section id="rules">
+                <h2>Rules</h2>
+                <span id="Rules_Photo"><img src="Remand.jpg" alt="Rule List"></span>
+                <ol>
+                    <li>Choose 1 of 6 <a href="https://tappedout.net/users/jamkid23/deck-folders/">starter decks</a> as your base PRPG deck. </li>
+                    <li>When building a PRPG deck, your initial card inventory includes your starter deck, 30 of each basic land (including Wastes, excluding Snow Lands), and one of each ante card (excluding <i>Contract from Below</i>).</li>
+                    <ul>
+                        <li>PRPG decks consist of 60 <span class="italic">Magic</span> cards and a 15-card sideboard. No more than 4 copies of nonbasic cards are allowed in a deck.</li>
+                    </ul>
+                    <li>Matches are usually Best of 1 and use duel <span class="italic">Magic: The Gathering </span> rules. The official MTG rulebook can be found <a href="https://magic.wizards.com/en/rules">here</a>.</li>
+                    <ul>
+                        <li>If you have a partner and your software supports multiplayer, you can play against them as long as you're on the same format tier.</li>
+                        <!----<li>A separate EDH campaign will be described below.</li> -->
+                    </ul>
+                    <li>The format tiers are: <span class="italic">Starter, Limited, Standard, Pioneer, Pauper, Modern, Legacy, and Vintage</span> in that order.</li>
+                    <ul>
+                        <li>The Starter format includes cards from <span class="italic"> Portal Block, Starter 1999, and Global Series: Jiang Yanggu & Mu Yanling. </span></li>
+                        <li>The Limited format includes Standard-legal cards from the latest MTG block and the preceding block.</li>
+                        <li>All other formats follow rules, card pools, and banlists as described <a href="https://magic.wizards.com/en/formats">here</a>.</li>
+                    </ul>
+                    <li>After creating your first PRPG deck, duel the other Starter format decks. After winning against each, you advance to the Limited format.</li>
+                    <li>In formats other than Starter, you compete against random decks in the chosen format, found on sites like <i>TappedOut</i> or <i>MTGGoldfish</i>.</li>
+                    <li>All matches in PRPG (excluding Starter format tier) are played for ante. After each player has finished taking mulligans, both players ante the top card of their libraries. The winner of the match recieves all cards in the ante pool. </li>
+                    <li>Winning a match earns you a PRPG booster pack with 5 commons, 2 uncommons, and 1 rare (12.5% chance of being a mythic rare).</li>
+                    <ul>
+                        <li>Booster packs contain cards currently legal in your format tier.</li>
+                        <li>A spreadsheet is highly recommended to keep track of your card collection and digital funds.</li>
+                    </ul>
+                    <li>Cards can be sold for in-game currency (digital USD) at the cheapest non-zero print price. Purchases are made at the most expensive print price, and only cards legal in your format tier can be bought. Mystery Booster cards can also be purchased (use at your own discretion).</li>
+                    <li>Whenever you win a match, you earn digital USD. Whenever you lose a match, you lose digital USD. </li>
+                    <ul>
+                        <li>Starter format: <span class="Gain">$0.00 </span> gain & <span class="Loss"> $0.00 </span> loss</li>
+                        <li>Limited: <span class="Gain"> $1.00 </span> gain & <span class="Loss"> $0.50 </span> loss</li>
+                        <li>Standard: <span class="Gain"> $3.00 </span> gain & <span class="Loss"> $1.50</span>  loss</li>
+                        <li>Pioneer: <span class="Gain"> $5.00 </span> gain & <span class="Loss">$2.50 </span>loss</li>
+                        <li>Pauper:  <span class="Gain"> $7.00 </span> gain & <span class="Loss"> $3.50 </span> loss</li>
+                        <li>Modern:  <span class="Gain"> $9.00 </span> gain & <span class="Loss"> $4.50 </span> loss</li>
+                        <li>Legacy: <span class="Gain"> $11.00 </span> gain & <span class="Loss"> $5.50 </span> loss</li>
+                        <li>Vintage: <span class="Gain"> $13.00 </span> gain & <span class="Loss"> $6.50 </span> loss</li>
+                    </ul>
+                    <li>After you have won 5 consecutive matches in any non-Starter format, you may at any point choose to advance to the next tier. Once you advance, choose a legal deck in your new format tier. You gain all nonland mainboard cards from that deck into your cardpool. You may then choose to purchase the manabase of that deck and sideboard cards.</li>
+                    <li>Advancing to a new tier earns you a random premium card. Premium cards are powerful and cannot be sold.</li>
+                    <li>Owners of premium cards or cards from previous formats that are no longer legal can retain them in their inventory and use them in their PRPG decks.</li>
+                    <li>Winning 5 consecutive Vintage matches means victory in Magic: The Gathering Playtest RPG, after which players may start a new playthrough or showcase their deck.</li>
+                    <!--<li>In the EDH campaign, players select one of the 5 EDH starter decks based on the 2011 Commander precons. A player's EDH PRPG deck may include the selected deck, unlimited basic lands, and 1 of each ante card.</li>
+                <li>The EDH campaign features a 4-player Commander format, utilizing the playtest software chosen by the player.</li>
+                <li>Players who win 2 matches among the 5 precon decks advance to the casual Commander league with access to the entire EDH card pool.</li>
+                <li>Three consecutive wins in the casual Commander league promote a player to the CEDH league. 3 consecutive wins here result in winning the campaign.</li>
+                <li>Victorious players in the EDH campaign receive 2 PRPG booster packs per win. Advancing from Precon to casual EDH, or from casual to CEDH league, awards players 2 premium cards.</li>
+                <li>Monetary rewards for the EDH campaign are as follows:</li>
+                <ul>
+                  <li>Precon: <span class="Gain">$2.00 </span> gain & <span class="Loss"> $1.00 </span> loss</li>
+                  <li>Casual: <span class="Gain"> $8.00 </span> gain & <span class="Loss"> $2.00 </span> loss</li>
+                  <li>Competitive Commander: <span class="Gain"> $15.00 </span> gain & <span class="Loss"> $3.75 </span> loss</li>
+                </ul> -->
+                    <li>As PRPG is mainly a single-player system played for enjoyment, players are expected to self-regulate using the honor system.</li>
+                    <li>In the future, an EDH Campaign and Custom Creature Creator will be added to the game.</li>
+                </ol>
+            </section>
+            <section id="card-generator">
+                <h2>MTG Random PRPG Card Generator</h2>
+                <span id="Booster_Photo"> <img src="Booster.jpg" alt="1/2 Booster"> </span>
+                <select id="format-select">
+                    <option value="starter">Starter</option>
+                    <option value="limited">Limited</option>
+                    <option value="standard">Standard</option>
+                    <option value="pioneer">Pioneer</option>
+                    <option value="pauper">Pauper</option>
+                    <option value="modern">Modern</option>
+                    <option value="legacy">Legacy</option>
+                    <option value="vintage">Vintage</option>
+                    <!---- <option value="commander">Commander</option> -->
+                </select>
+                <button onclick="generateCards()">Open Booster Pack</button>
+                <div id="loading"></div>
+                <div id="card-container"></div>
+            </section>
+            <section id="premium-generator">
+                <h2> Premium Card Generator </h2>
+                <span id="Premium_Photo"> <img src="s3_image.png" alt="OP Cards"> </span>
+                <button onclick="generatePremiumCard()">Recieve Broken Card</button>
+                <div id="card-container2"></div>
+                <div id="loading2"></div>
+            </section>
+            <!----<a href="CreatureCreator.html">  Custom Creature Creator </a> -->
+    </main>
+    <footer>
+        <p>This is a fan website. <i>Magic: The Gathering </i> is a property of Hasbro™</p>
+    </footer>
+</body>
+<script src="MagicScript.js"></script>
+</html>
