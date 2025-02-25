@@ -92,7 +92,7 @@ async function generatePremiumCard()
         'Underworld Breach', 'Wheel of Fortune', 'Windfall', "Yawgmoth's Bargain",
         "Yawgmoth's Will", "Mind's Desire", 'Brainstorm', 'Chalice of the Void',
         'Upheaval', 'Dig Through Time', 'Golgari Grave-Troll', 'Karn, the Great Creator',
-        "Lion's Eye Diamond", 'Emrakul, the Aeons Torn'
+        "Lion's Eye Diamond", 'Emrakul, the Aeons Torn', "Jegantha, the Wellspring"
     ];
     const randomCard = premiumCards[Math.floor(Math.random() * premiumCards.length)];
     try
